@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include "ml_4100.h"
+#include "cherry_ml_4100_qmk_via_firmware.h"
 
 void turn_on_led(pin_t pin)
 {
