@@ -1,6 +1,4 @@
-/*
- * Copyright 2020 Nick Brassel (tzarc)
- * Copyright 2022 Charly Delay <charly@codesink.dev> (@0xcharly)
+/* Copyright 2021 Your Name (@yourgithub)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -18,12 +16,10 @@
 
 #pragma once
 
-#define HAL_USE_PWM TRUE
-#define HAL_USE_SERIAL TRUE
-//#define HAL_USE_I2C     TRUE
-#define HAL_USE_SPI TRUE
-#define SPI_USE_WAIT TRUE
-#define SPI_SELECT_MODE SPI_SELECT_MODE_PAD
-#define HAL_USE_GPT TRUE
+#include_next "mcuconf.h"
 
-#include_next <halconf.h>
+#undef STM32_I2C_USE_I2C1
+#define STM32_I2C_USE_I2C1 TRUE
+
+#undef STM32_PWM_USE_TIM3
+#define STM32_PWM_USE_TIM3 TRUE

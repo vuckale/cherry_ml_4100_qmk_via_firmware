@@ -31,7 +31,6 @@
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCE 5
 
-
 #define BOOTMAGIC_LITE_ROW 9
 #define BOOTMAGIC_LITE_COLUMN 7
 

@@ -34,9 +34,8 @@
 // C13 LED on board
 // A0 secret bootloader
 
-#define LAYER_LED A15
-
 #define LED_NUM_LOCK_PIN B3
 #define LED_CAPS_LOCK_PIN B4
+#define LAYER_LED A15
 // #define LED_SCROLL_LOCK_PIN A15
     

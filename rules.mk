@@ -14,4 +14,3 @@ RGBLIGHT_ENABLE = no        # Enable keyboard RGB underglow
 AUDIO_ENABLE = no           # Audio output
 
 DEFAULT_FOLDER = vuckale/cherry_ml_4100_qmk_via_firmware/blackpill_f401
-
